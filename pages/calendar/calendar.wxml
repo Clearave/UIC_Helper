@@ -1,0 +1,10 @@
+<!--pages/calendar/calendar.wxml-->
+<view style='padding-top:100px;'>
+  <view class='cu-card case'>
+    <view class='cu-item shadow'>
+      <view class='demo5'>
+        <calendar cell-size="30" next="{{false}}" prev="{{false}}" show-more-days="{{true}}" calendar-style="demo5-calendar" header-style="demo5-header" board-style="demo5-board" days-color="{{demo5_days_style}}" />
+      </view>
+    </view>
+  </view>
+</view>
