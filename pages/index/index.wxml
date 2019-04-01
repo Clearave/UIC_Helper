@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<image class='header-bg' src='../../imgs/uic01.jpg'></image>
+<scroll-view scroll-y class="scrollPage" style='padding-top:100px'>
+  <view class='nav-list'>
+    <navigator open-type="navigate" hover-class='none' url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title">{{item.title}}</view>
+      <view class="nav-name">{{item.name}}</view>
+      <text class='icon-{{item.icon}}'></text>
+    </navigator>
+  </view>
+  <view class='cu-tabbar-height'></view>
+</scroll-view>
