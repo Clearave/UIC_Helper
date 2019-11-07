@@ -1,0 +1,24 @@
+/* pages/ShuttleBus/ShuttleBus.wxss */
+
+.HeadingView{
+  height: auto;
+  width: 750rpx;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+}
+
+.Heading1{
+  width: 700rpx;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+.Heading4{
+  width: 700rpx;
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}

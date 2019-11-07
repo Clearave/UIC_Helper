@@ -1,0 +1,9 @@
+<!--pages/ShuttleBus/ShuttleBus.wxml-->
+<view class="HeadingView">
+  <view class="Heading1">唐家湾站穿梭巴士时刻表</view>
+  <view class="Heading4">Schedule of shuttle bus between Tangjiawan Light rail station & UIC Coach Parking area</view>
+</view>
+<view>Runing for whole week </view>
+<view>唐家湾站↔ UIC </view>
+<view>（Tangjiawan Station↔UIC Coach Parking area)</view>
+<view>备注：8:00至22:00，两台大巴同时从唐家湾轻轨站和UIC双方向发车。Two buses depart from UIC and Tangjiawan station as same time from 8:00 to 22:00，runing for whole week.</view>
