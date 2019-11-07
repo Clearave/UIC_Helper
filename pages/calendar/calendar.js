@@ -100,5 +100,33 @@ Page({
    */
   onShareAppMessage: function() {
 
+  },
+
+  openFile(){
+    wx.showLoading({
+      title: '加载中',
+    })
+    wx.downloadFile({
+      url: 'https://cloud-minapp-31353.cloud.ifanrusercontent.com/1iShYj279DcSdwFM.pdf',
+      success: function (res) {
+        console.log(res)
+        var Path = res.tempFilePath              //返回的文件临时地址，用于后面打开本地预览所用
+        wx.openDocument({
+          filePath: Path,
+          success: function (res) {
+            wx.hideLoading();
+            console.log('打开成功');
+          }
+        })
+      },
+      fail: function (res) {
+        wx.showToast({
+          title: '打开失败',
+          icon: 'none',
+          duration: 2000
+        })
+        console.log(res);
+      }
+    })
   }
 })
